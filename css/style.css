@@ -1,0 +1,276 @@
+/*
+------------------------------------------------
+Definiciones Generales para todas las paginas
+------------------------------------------------ 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* solo para el diseño */
+.item {
+    border: 1px solid black;
+}
+
+.item-rev {
+    border: 1px solid white;
+}
+
+
+/* 
+--------------------------------------
+RESPONSIVE
+--------------------------------------
+*/
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+
+}
+
+
+
+/*
+-----------------------------------------    
+Display Flex
+-----------------------------------------
+*/
+.contenedor-H {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contenedor-V {
+    display: flex;
+    flex-direction: column;
+}
+
+.items-center {
+    justify-content: center;
+    /*alineamiento horizontal */
+    align-items: center;
+    /* alineamiento vertical */
+}
+
+/*
+------------------------------
+Display Cuadricula
+------------------------------
+*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 20px;
+    padding: 20px;
+    margin: 25px;
+
+}
+
+.grid-item {
+    text-align: center;
+    padding: 25px;
+    box-shadow: 5px 5px 15px;
+}
+
+.material-icons.icono1 {
+    font-size: 48px;
+    color: rgba(0, 255, 0, 1);
+}
+
+
+/*
+-----------------------------
+Menu Principal
+-----------------------------
+*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: right;
+    width: 150px;
+    border-right: 1px solid #bbb;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 50px;
+}
+
+nav li a:hover {
+    background-color: #ec7b10;  
+
+}
+
+nav .active {
+    background-color: #04AA6D;
+    color: black;
+}
+
+#favicon-menu{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+/* 
+-----------------------------------
+Header  Imagen  de cabecera
+-----------------------------------
+*/
+.banner{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 
+--------------------------------------
+Seccion: Servicios
+--------------------------------------
+*/
+#servicios {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33% ;
+    gap: 20px;
+    padding: 20px;
+}
+
+#servicios div{
+    text-align: center;
+    padding: 25px;
+    box-shadow: 5px 5px 15px;
+}
+
+#proyectos {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33% ;
+    gap: 20px;
+    padding: 20px;
+}
+
+#proyectos div{
+    text-align: center;
+    padding: 25px;
+
+}
+
+.foto-aumenta{
+    width: 100%;
+}
+
+
+/* 
+--------------------------------------
+Seccion: Imagenes
+--------------------------------------
+*/
+#imagenes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 2%;
+}
+
+#imagenes{
+    text-align: center;
+    padding: 25px;
+    box-shadow: 5px 5px 15px;
+}
+
+
+
+#formulario{
+    margin: 50px;
+    background: linear-gradient(90deg, rgba(235, 61, 13, 1) 0%, rgba(255, 132, 0, 1) 25%, rgba(241, 184, 10, 1) 50%, rgba(233, 224, 18, 1) 75%, rgba(141, 226, 60, 1) 100%);
+    width: 75%;
+    height: 300px;
+}
+
+/* 
+------------------------------------------------
+Footer
+------------------------------------------------
+*/
+footer {
+    background-image: url('/img/footer.jpg');
+    
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.barra {
+    width: 70%;
+    height: 15px;
+    background: linear-gradient(90deg, rgba(235, 61, 13, 1) 0%, rgba(255, 132, 0, 1) 25%, rgba(241, 184, 10, 1) 50%, rgba(233, 224, 18, 1) 75%, rgba(141, 226, 60, 1) 100%);
+}
