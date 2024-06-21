@@ -125,10 +125,6 @@ Display Cuadricula
     box-shadow: 5px 5px 15px;
 }
 
-.material-icons.icono1 {
-    font-size: 48px;
-    color: rgba(0, 255, 0, 1);
-}
 
 
 /*
@@ -188,7 +184,7 @@ Header  Imagen  de cabecera
 
 /* 
 --------------------------------------
-Seccion: Servicios
+Seccion: Servicios y Proyectos
 --------------------------------------
 */
 #servicios {
@@ -221,6 +217,13 @@ Seccion: Servicios
     width: 100%;
 }
 
+form {
+    width: 80%;
+}
+form input, button{
+    width: 80%;
+    font-size: 20px;
+}
 
 /* 
 --------------------------------------
@@ -263,11 +266,6 @@ footer {
     text-align: center;
     font-size: 12px;
 }
-
-
-
-
-
 
 .barra {
     width: 70%;
